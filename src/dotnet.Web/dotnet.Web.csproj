@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Youshow.Ace.AspNetCore.Web" Version="6.0.12" />
+    <PackageReference Include="Youshow.Ace.Container" Version="6.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotnet.Ability\dotnet.Ability.csproj" />
+    <ProjectReference Include="..\dotnet.Ability.Docking\dotnet.Ability.Docking.csproj" />
+    <ProjectReference Include="..\dotnet.Http.Client\dotnet.Http.Client.csproj" />
+  </ItemGroup>
+
+</Project>

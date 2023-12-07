@@ -1,0 +1,15 @@
+D:\myDailyLife\src\dotnet.Http.Client\bin\Debug\net6.0\dotnet.Http.Client.deps.json
+D:\myDailyLife\src\dotnet.Http.Client\bin\Debug\net6.0\dotnet.Http.Client.dll
+D:\myDailyLife\src\dotnet.Http.Client\bin\Debug\net6.0\dotnet.Http.Client.pdb
+D:\myDailyLife\src\dotnet.Http.Client\bin\Debug\net6.0\dotnet.Ability.Docking.dll
+D:\myDailyLife\src\dotnet.Http.Client\bin\Debug\net6.0\dotnet.Ability.Docking.pdb
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\dotnet.Http.Client.csproj.AssemblyReference.cache
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\dotnet.Http.Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\dotnet.Http.Client.AssemblyInfoInputs.cache
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\dotnet.Http.Client.AssemblyInfo.cs
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\dotnet.Http.Client.csproj.CoreCompileInputs.cache
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\dotnet.Http.Client.csproj.CopyComplete
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\dotnet.Http.Client.dll
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\refint\dotnet.Http.Client.dll
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\dotnet.Http.Client.pdb
+D:\myDailyLife\src\dotnet.Http.Client\obj\Debug\net6.0\ref\dotnet.Http.Client.dll

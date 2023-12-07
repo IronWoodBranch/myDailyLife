@@ -1,0 +1,157 @@
+============================================= 
+ 2023-12-06 21:15:19.859 +09:00 [INF] Now listening on: https://localhost:7075
+============================================= 
+ 2023-12-06 21:15:20.001 +09:00 [INF] Now listening on: http://localhost:5103
+============================================= 
+ 2023-12-06 21:15:20.016 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+============================================= 
+ 2023-12-06 21:15:20.020 +09:00 [INF] Hosting environment: Development
+============================================= 
+ 2023-12-06 21:15:20.024 +09:00 [INF] Content root path: D:\myDailyLife\src\dotnet.Web\
+============================================= 
+ 2023-12-06 21:15:55.203 +09:00 [WRN] No store type was specified for the decimal property 'Calories' on entity type 'CaloriesOfFood'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:15:55.207 +09:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'singlePayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:15:55.385 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:15:56.893 +09:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Calories], [c].[FoodName]
+FROM [CaloriesOfFood] AS [c]
+WHERE [c].[Id] = 0
+============================================= 
+ 2023-12-06 21:17:40.203 +09:00 [INF] Now listening on: https://localhost:7075
+============================================= 
+ 2023-12-06 21:17:40.261 +09:00 [INF] Now listening on: http://localhost:5103
+============================================= 
+ 2023-12-06 21:17:40.275 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+============================================= 
+ 2023-12-06 21:17:40.278 +09:00 [INF] Hosting environment: Development
+============================================= 
+ 2023-12-06 21:17:40.281 +09:00 [INF] Content root path: D:\myDailyLife\src\dotnet.Web\
+============================================= 
+ 2023-12-06 21:17:56.040 +09:00 [WRN] No store type was specified for the decimal property 'Calories' on entity type 'CaloriesOfFood'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:17:56.045 +09:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'singlePayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:17:56.246 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:17:57.793 +09:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Calories], [c].[FoodName]
+FROM [CaloriesOfFood] AS [c]
+WHERE [c].[Id] = 3
+============================================= 
+ 2023-12-06 21:17:57.948 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:17:58.061 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:17:58.121 +09:00 [INF] Executed DbCommand (37ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Calories], [c].[FoodName]
+FROM [CaloriesOfFood] AS [c]
+WHERE [c].[Id] = @__id_0
+============================================= 
+ 2023-12-06 21:17:58.332 +09:00 [INF] Executed DbCommand (25ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [CaloriesOfFood] SET [Calories] = @p0, [FoodName] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+============================================= 
+ 2023-12-06 21:20:56.732 +09:00 [INF] Now listening on: https://localhost:7075
+============================================= 
+ 2023-12-06 21:20:56.790 +09:00 [INF] Now listening on: http://localhost:5103
+============================================= 
+ 2023-12-06 21:20:56.802 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+============================================= 
+ 2023-12-06 21:20:56.804 +09:00 [INF] Hosting environment: Development
+============================================= 
+ 2023-12-06 21:20:56.807 +09:00 [INF] Content root path: D:\myDailyLife\src\dotnet.Web\
+============================================= 
+ 2023-12-06 21:21:10.251 +09:00 [WRN] No store type was specified for the decimal property 'Calories' on entity type 'CaloriesOfFood'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:21:10.255 +09:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'singlePayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:21:10.466 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:21:12.022 +09:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Calories], [c].[FoodName]
+FROM [CaloriesOfFood] AS [c]
+WHERE [c].[Id] = 3
+============================================= 
+ 2023-12-06 21:21:12.184 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:21:12.299 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:21:12.365 +09:00 [INF] Executed DbCommand (39ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Calories], [c].[FoodName]
+FROM [CaloriesOfFood] AS [c]
+WHERE [c].[Id] = @__id_0
+============================================= 
+ 2023-12-06 21:21:12.594 +09:00 [INF] Executed DbCommand (24ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [CaloriesOfFood] SET [Calories] = @p0, [FoodName] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+============================================= 
+ 2023-12-06 21:51:23.522 +09:00 [INF] Now listening on: https://localhost:7075
+============================================= 
+ 2023-12-06 21:51:23.570 +09:00 [INF] Now listening on: http://localhost:5103
+============================================= 
+ 2023-12-06 21:51:23.581 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+============================================= 
+ 2023-12-06 21:51:23.583 +09:00 [INF] Hosting environment: Development
+============================================= 
+ 2023-12-06 21:51:23.586 +09:00 [INF] Content root path: D:\myDailyLife\src\dotnet.Web\
+============================================= 
+ 2023-12-06 21:51:32.918 +09:00 [WRN] No store type was specified for the decimal property 'Calories' on entity type 'CaloriesOfFood'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:51:32.922 +09:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'singlePayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:51:33.061 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:51:33.930 +09:00 [INF] Executed DbCommand (62ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Calories], [c].[FoodName]
+FROM [CaloriesOfFood] AS [c]
+WHERE [c].[Id] = @__id_0
+============================================= 
+ 2023-12-06 21:51:34.218 +09:00 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [CaloriesOfFood]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+============================================= 
+ 2023-12-06 21:52:54.361 +09:00 [INF] Now listening on: https://localhost:7075
+============================================= 
+ 2023-12-06 21:52:54.407 +09:00 [INF] Now listening on: http://localhost:5103
+============================================= 
+ 2023-12-06 21:52:54.421 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+============================================= 
+ 2023-12-06 21:52:54.423 +09:00 [INF] Hosting environment: Development
+============================================= 
+ 2023-12-06 21:52:54.426 +09:00 [INF] Content root path: D:\myDailyLife\src\dotnet.Web\
+============================================= 
+ 2023-12-06 21:53:14.557 +09:00 [WRN] No store type was specified for the decimal property 'Calories' on entity type 'CaloriesOfFood'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:53:14.561 +09:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'singlePayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 21:53:14.720 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:53:15.525 +09:00 [INF] Executed DbCommand (68ms) [Parameters=[@p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [CaloriesOfFood] ([Calories], [FoodName])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [CaloriesOfFood]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+============================================= 
+ 2023-12-06 21:53:28.590 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 21:53:28.956 +09:00 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Calories], [c].[FoodName]
+FROM [CaloriesOfFood] AS [c]
+WHERE [c].[Id] = @__id_0
+============================================= 
+ 2023-12-06 21:53:29.002 +09:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [CaloriesOfFood]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;

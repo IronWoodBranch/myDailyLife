@@ -1,0 +1,12 @@
+D:\myDailyLife\src\dotnet.Domain\bin\Debug\net6.0\dotnet.Domain.deps.json
+D:\myDailyLife\src\dotnet.Domain\bin\Debug\net6.0\dotnet.Domain.dll
+D:\myDailyLife\src\dotnet.Domain\bin\Debug\net6.0\dotnet.Domain.pdb
+D:\myDailyLife\src\dotnet.Domain\obj\Debug\net6.0\dotnet.Domain.csproj.AssemblyReference.cache
+D:\myDailyLife\src\dotnet.Domain\obj\Debug\net6.0\dotnet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\myDailyLife\src\dotnet.Domain\obj\Debug\net6.0\dotnet.Domain.AssemblyInfoInputs.cache
+D:\myDailyLife\src\dotnet.Domain\obj\Debug\net6.0\dotnet.Domain.AssemblyInfo.cs
+D:\myDailyLife\src\dotnet.Domain\obj\Debug\net6.0\dotnet.Domain.csproj.CoreCompileInputs.cache
+D:\myDailyLife\src\dotnet.Domain\obj\Debug\net6.0\dotnet.Domain.dll
+D:\myDailyLife\src\dotnet.Domain\obj\Debug\net6.0\refint\dotnet.Domain.dll
+D:\myDailyLife\src\dotnet.Domain\obj\Debug\net6.0\dotnet.Domain.pdb
+D:\myDailyLife\src\dotnet.Domain\obj\Debug\net6.0\ref\dotnet.Domain.dll

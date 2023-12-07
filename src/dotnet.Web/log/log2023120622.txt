@@ -1,0 +1,44 @@
+============================================= 
+ 2023-12-06 22:16:44.826 +09:00 [INF] Now listening on: https://localhost:7075
+============================================= 
+ 2023-12-06 22:16:44.887 +09:00 [INF] Now listening on: http://localhost:5103
+============================================= 
+ 2023-12-06 22:16:44.899 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+============================================= 
+ 2023-12-06 22:16:44.901 +09:00 [INF] Hosting environment: Development
+============================================= 
+ 2023-12-06 22:16:44.904 +09:00 [INF] Content root path: D:\myDailyLife\src\dotnet.Web\
+============================================= 
+ 2023-12-06 22:17:00.390 +09:00 [WRN] No store type was specified for the decimal property 'Calories' on entity type 'CaloriesOfFood'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 22:17:00.394 +09:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'singlePayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-12-06 22:17:00.566 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 22:17:01.451 +09:00 [INF] Executed DbCommand (76ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [MyDiary] ([diary], [diaryTime])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [MyDiary]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+============================================= 
+ 2023-12-06 22:24:08.276 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 22:24:08.314 +09:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [MyDiary] ([diary], [diaryTime])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [MyDiary]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+============================================= 
+ 2023-12-06 22:24:40.562 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-12-06 22:24:40.581 +09:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [MyDiary] ([diary], [diaryTime])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [MyDiary]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();

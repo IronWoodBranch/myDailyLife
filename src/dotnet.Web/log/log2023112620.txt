@@ -1,0 +1,22 @@
+============================================= 
+ 2023-11-26 20:08:22.140 +09:00 [INF] Now listening on: https://localhost:7075
+============================================= 
+ 2023-11-26 20:08:22.185 +09:00 [INF] Now listening on: http://localhost:5103
+============================================= 
+ 2023-11-26 20:08:22.194 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+============================================= 
+ 2023-11-26 20:08:22.196 +09:00 [INF] Hosting environment: Development
+============================================= 
+ 2023-11-26 20:08:22.198 +09:00 [INF] Content root path: D:\myDailyLife\src\dotnet.Web\
+============================================= 
+ 2023-11-26 20:08:49.741 +09:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'singlePayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+============================================= 
+ 2023-11-26 20:08:49.875 +09:00 [INF] Entity Framework Core 6.0.7 initialized 'dotnetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking QuerySplittingBehavior=SplitQuery 
+============================================= 
+ 2023-11-26 20:08:50.702 +09:00 [INF] Executed DbCommand (63ms) [Parameters=[@p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [singlePayment] ([Amount], [remark], [theTime])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [singlePayment]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();

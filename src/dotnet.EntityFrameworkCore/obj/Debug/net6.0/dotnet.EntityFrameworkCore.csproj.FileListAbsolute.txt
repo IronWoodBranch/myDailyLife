@@ -1,0 +1,17 @@
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\bin\Debug\net6.0\dotnet.EntityFrameworkCore.deps.json
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\bin\Debug\net6.0\dotnet.EntityFrameworkCore.runtimeconfig.json
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\bin\Debug\net6.0\dotnet.EntityFrameworkCore.dll
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\bin\Debug\net6.0\dotnet.EntityFrameworkCore.pdb
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\bin\Debug\net6.0\dotnet.Domain.dll
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\bin\Debug\net6.0\dotnet.Domain.pdb
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\dotnet.EntityFrameworkCore.csproj.AssemblyReference.cache
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\dotnet.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\dotnet.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\dotnet.EntityFrameworkCore.AssemblyInfo.cs
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\dotnet.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\dotnet.EntityFrameworkCore.csproj.CopyComplete
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\dotnet.EntityFrameworkCore.dll
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\refint\dotnet.EntityFrameworkCore.dll
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\dotnet.EntityFrameworkCore.pdb
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\dotnet.EntityFrameworkCore.genruntimeconfig.cache
+D:\myDailyLife\src\dotnet.EntityFrameworkCore\obj\Debug\net6.0\ref\dotnet.EntityFrameworkCore.dll

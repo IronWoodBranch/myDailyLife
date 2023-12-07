@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0IlOHaBUkO95sFSHLvE9B4kFfHT84zBwioL7w3gcrTU=",
+  "Source": "dotnet.Web",
+  "BasePath": "_content/dotnet.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

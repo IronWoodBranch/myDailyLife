@@ -1,0 +1,12 @@
+D:\myDailyLife\src\dotnet.Ability.Docking\bin\Debug\net6.0\dotnet.Ability.Docking.deps.json
+D:\myDailyLife\src\dotnet.Ability.Docking\bin\Debug\net6.0\dotnet.Ability.Docking.dll
+D:\myDailyLife\src\dotnet.Ability.Docking\bin\Debug\net6.0\dotnet.Ability.Docking.pdb
+D:\myDailyLife\src\dotnet.Ability.Docking\obj\Debug\net6.0\dotnet.Ability.Docking.csproj.AssemblyReference.cache
+D:\myDailyLife\src\dotnet.Ability.Docking\obj\Debug\net6.0\dotnet.Ability.Docking.GeneratedMSBuildEditorConfig.editorconfig
+D:\myDailyLife\src\dotnet.Ability.Docking\obj\Debug\net6.0\dotnet.Ability.Docking.AssemblyInfoInputs.cache
+D:\myDailyLife\src\dotnet.Ability.Docking\obj\Debug\net6.0\dotnet.Ability.Docking.AssemblyInfo.cs
+D:\myDailyLife\src\dotnet.Ability.Docking\obj\Debug\net6.0\dotnet.Ability.Docking.csproj.CoreCompileInputs.cache
+D:\myDailyLife\src\dotnet.Ability.Docking\obj\Debug\net6.0\dotnet.Ability.Docking.dll
+D:\myDailyLife\src\dotnet.Ability.Docking\obj\Debug\net6.0\refint\dotnet.Ability.Docking.dll
+D:\myDailyLife\src\dotnet.Ability.Docking\obj\Debug\net6.0\dotnet.Ability.Docking.pdb
+D:\myDailyLife\src\dotnet.Ability.Docking\obj\Debug\net6.0\ref\dotnet.Ability.Docking.dll
